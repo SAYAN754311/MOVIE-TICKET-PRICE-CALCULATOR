@@ -33,5 +33,4 @@ def calculate_ticket_price():
     print(f"\nYour final ticket price is: ₹{price}")
     print("Enjoy your movie! 🍿")
 
-if __name__ == "__main__":
-    calculate_ticket_price()
+
