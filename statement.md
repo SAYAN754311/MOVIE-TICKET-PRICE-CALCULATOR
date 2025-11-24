@@ -37,4 +37,5 @@ This project automates the calculation of movie ticket prices to ensure accuracy
 
 
 
-Would you like the source code too?
+
+
