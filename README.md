@@ -18,17 +18,17 @@ def calculate_ticket_price():
 
     # Time-based addition
     if time == "evening":
-        price += 40
+        price += 50
 
     # Seat-based addition
     if seat == "premium":
-        price += 70
+        price += 60
     elif seat == "recliner":
-        price += 150
+        price += 190
 
     # Discount
     if discount == "yes":
-        price = 20
+        price = 40
 
     print(f"\nYour final ticket price is: ₹{price}")
     print("Enjoy your movie! 🍿")
