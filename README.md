@@ -1,36 +1,61 @@
-# MOVIE-TICKET-PRICE-CALCULATOR
 
-def calculate_ticket_price():
-    print("🎬 MOVIE TICKET PRICE CALCULATOR 🎟️")
-    
-    age = int(input("Enter your age: "))
-    time = input("Show time (matinee/evening): ")
-    seat = input("Seat type (normal/premium/recliner): ")
-    discount = input("Student discount? (yes/no): ")
+README.md
 
-    # Base price based on age
-    if age < 12:
-        price = 150
-    elif 12 <= age <= 60:
-        price = 170
-    else:
-        price = 160
+# 🎬 Movie Ticket Price Calculator
 
-    # Time-based addition
-    if time == "evening":
-        price += 50
+## 📌 Project Overview
+The **Movie Ticket Price Calculator** is a simple and user-friendly program designed to calculate the final price of a movie ticket based on age, show type, seat category, and optional discounts.  
+It aims to automate ticket cost calculation for cinema booking systems or educational programming assignments.
 
-    # Seat-based addition
-    if seat == "premium":
-        price += 60
-    elif seat == "recliner":
-        price += 190
+---
 
-    # Discount
-    if discount == "yes":
-        price = 40
+## ✨ Features
+- Calculates ticket price based on:
+  - Age group (Child / Adult / Senior)
+  - Show timing (Matinee / Evening)
+  - Seat type (Regular / Premium / VIP)
+- Optional discounts:
+  - Student discount
+  - Weekend surcharge
+- Clean, modular, and easy-to-understand source code
+- Data stored in separate files (pricing, discount rules)
 
-    print(f"\nYour final ticket price is: ₹{price}")
-    print("Enjoy your movie! 🍿")
+---
+
+## 🛠️ Technologies/Tools Used
+- **Programming Language:** Python (can be changed to Java / C / C++ if needed)
+- **Editor:** VS Code / PyCharm / any IDE
+- **Version Control:** Git & GitHub
+
+---
+
+## 🚀 How to Install & Run
+
+### **1. Clone the repository**
+```bash
+git clone https://github.com/your-username/movie-ticket-price-calculator.git
+cd movie-ticket-price-calculator
+
+2. Run the program
+
+python main.py
+
+
+---
+
+🧪 Instructions for Testing
+
+Test with different age groups to ensure correct price assignment.
+
+Verify student discount logic.
+
+Check weekend surcharge conditions.
+
+Try various seat categories and show timings.
+
+Ensure incorrect inputs are handled properly.
+
+
+
 
 
